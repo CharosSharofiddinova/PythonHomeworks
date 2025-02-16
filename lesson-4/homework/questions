@@ -1,0 +1,16 @@
+2. What is the difference between the continue and break statements in Python?
+Break and continue loops control the flow of loop in a program.
+Continue statements skips the current iteration and moves to the next one.
+It is used when you want to skip processing for certain cases but continue looping.
+Break statement completely exits the loop when encountered.
+It is used when you want to stop the loop based on a condition
+3. Can you explain the difference between for loop and while loop?
+For loop is used when the number of intirations is known.It itirated base on sequence, like list, tuple, string, rage and etc. It automatically stops when the sequence ends.
+4. How would you implement a nested for loop system? Provide an example
+The outer for loop runs first and controls the number of iterations.
+The inner loop runs completely for each iteration of the outer loop.
+
+for i in range(1, 4):  # Outer loop (controls rows)
+    for j in range(1, 4):  # Inner loop (controls columns)
+        print(f"({i}, {j})", end=" ")  # Print coordinates
+    print()  # New line after each row

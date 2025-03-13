@@ -70,6 +70,8 @@ else:
 weight=int(input("Enter yout weight: "))
 unit=input("Choose 'L' for pound and 'K' for kilogram")  
 if unit.upper=='L':
-    mass=weight*0.45     
+    mass=weight*0.45   
+    
+      
 
 

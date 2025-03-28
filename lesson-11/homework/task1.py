@@ -15,7 +15,6 @@ INSERT INTO Roster (Name, Species, Age) VALUES (?, ?, ?)
     ("Jadzia Dax", "Trill", 300),
     ("Kira Nerys", "Bajoran", 29)
 ])
-
 conn.commit()
 cursor.execute("""
 UPDATE Roster SET Name = "Ezri Dax" WHERE Name = "Jadzia Dax"
@@ -49,3 +48,4 @@ print("\nCharacters sorted by Age (descending):")
 for row in cursor.fetchall():
     print(row)
 conn.close()
+

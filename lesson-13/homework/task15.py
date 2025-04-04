@@ -1,0 +1,10 @@
+import numpy as np
+matrix = np.random.rand(5, 5)
+row_sums = np.sum(matrix, axis=1)
+column_sums = np.sum(matrix, axis=0)
+print("Matrix (5x5):")
+print(matrix)
+print("Row-wise sums:")
+print(row_sums)
+print("Column-wise sums:")
+print(column_sums)

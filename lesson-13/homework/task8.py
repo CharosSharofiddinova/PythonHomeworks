@@ -1,0 +1,10 @@
+import numpy as np
+matrix_a = np.random.rand(5, 3)
+matrix_b = np.random.rand(3, 2)
+result_matrix = np.dot(matrix_a, matrix_b)
+print("Matrix A (5x3):")
+print(matrix_a)
+print("Matrix B (3x2):")
+print(matrix_b)
+print("Result of A * B (5x2):")
+print(result_matrix)

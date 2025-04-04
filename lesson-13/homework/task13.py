@@ -1,0 +1,10 @@
+import numpy as np
+matrix = np.random.rand(3, 3)
+vector = np.random.rand(3, 1)
+matrix_vector_product = np.dot(matrix, vector)
+print("Matrix (3x3):")
+print(matrix)
+print("Column Vector (3x1):")
+print(vector)
+print("Matrix-Vector Product:")
+print(matrix_vector_product)

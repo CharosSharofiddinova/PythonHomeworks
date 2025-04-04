@@ -1,0 +1,10 @@
+import numpy as np
+matrix_a = np.random.rand(3, 4)
+matrix_b = np.random.rand(4, 3)
+matrix_product = np.dot(matrix_a, matrix_b)
+print("Matrix A (3x4):")
+print(matrix_a)
+print("Matrix B (4x3):")
+print(matrix_b)
+print("Matrix Product (A * B) (3x3):")
+print(matrix_product)

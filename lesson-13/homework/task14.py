@@ -1,0 +1,10 @@
+import numpy as np
+A = np.random.rand(3, 3)
+b = np.random.rand(3, 1)
+x = np.linalg.solve(A, b)
+print("Matrix A (3x3):")
+print(A)
+print("Column Vector b (3x1):")
+print(b)
+print("Solution x (3x1):")
+print(x)

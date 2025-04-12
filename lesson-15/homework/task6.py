@@ -1,0 +1,15 @@
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(-5, 5, 400)
+y = np.linspace(-5, 5, 400)
+x, y = np.meshgrid(x, y)
+z = np.cos(x**2 + y**2)
+plt.figure()
+surf = plt.axes(projection='3d')
+surf.plot_surface(x, y, z, cmap='viridis')
+plt.colorbar(surf)
+surf.set_xlabel('X')
+surf.set_ylabel('Y')
+surf.set_zlabel('f(x, y)')
+surf.set_title('Surface plot of $f(x, y) = \cos(x^2 + y^2)$')
+plt.show()
